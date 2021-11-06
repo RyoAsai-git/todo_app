@@ -1,8 +1,9 @@
 package config
 
 import (
-	"gopkg.in/go-ini/ini.vi"
 	"log"
+
+	"gopkg.in/go-ini/ini.v1"
 )
 
 type ConfigList struct {
@@ -14,12 +15,15 @@ type ConfigList struct {
 
 var Config ConfigList
 
+func init() {
+	LoadConfig()
+}
+
 func LoadConfig() {
 	cfg, err := ini.Load("config.ini")
 	if err != nil {
-		log.Fatal(err)
+		log.Fatalln(err)
 	}
-
 	Config = ConfigList{
 		Port:      cfg.Section("web").Key("port").MustString("8080"),
 		SQLDriver: cfg.Section("db").Key("driver").String(),
