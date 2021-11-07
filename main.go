@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
+	"github.com/RyoAsai-git/todo_app/config"
 	"log"
-	"todo_app/config"
 )
 
 func main() {
