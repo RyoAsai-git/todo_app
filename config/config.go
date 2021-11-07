@@ -1,9 +1,9 @@
 package config
 
 import (
+	"github.com/RyoAsai-git/todo_app/utils"
 	"gopkg.in/go-ini/ini.v1"
 	"log"
-	"todo_app/utils"
 )
 
 type ConfigList struct {

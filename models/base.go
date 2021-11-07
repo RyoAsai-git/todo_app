@@ -3,8 +3,8 @@ package models
 import (
 	"database/sql"
 	"fmt"
+	"github.com/RyoAsai-git/todo_app/config"
 	"log"
-	"todo_app/config"
 
 	_ "github.com/mattn/go-sqlite3"
 )
