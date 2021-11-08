@@ -1,10 +1,10 @@
 package main
 
 import (
-// "fmt"
-// "github.com/RyoAsai-git/todo_app/models"
-// "github.com/RyoAsai-git/todo_app/config"
-// "log"
+	"fmt"
+	"github.com/RyoAsai-git/todo_app/models"
+	// "github.com/RyoAsai-git/todo_app/config"
+	// "log"
 )
 
 func main() {
@@ -15,5 +15,5 @@ func main() {
 
 	// log.Println("test")
 
-	// fmt.Println(models.Db)
+	fmt.Println(models.Db)
 }
