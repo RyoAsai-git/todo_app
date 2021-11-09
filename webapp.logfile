@@ -1,3 +1,6 @@
 2021/11/06 20:53:25 main.go:15: test
 2021/11/06 20:54:45 main.go:15: test
 2021/11/07 13:45:17 main.go:15: test
+2021/11/08 23:23:30 main.go:16: test
+2021/11/10 00:10:27 main.go:16: test
+2021/11/10 00:16:11 users.go:34: near "created_at": syntax error

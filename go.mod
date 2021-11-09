@@ -6,6 +6,7 @@ require (
 	github.com/andybalholm/brotli v1.0.3 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/google/subcommands v1.2.0 // indirect
+	github.com/google/uuid v1.3.0
 	github.com/google/wire v0.5.0 // indirect
 	github.com/joho/godotenv v1.4.0 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
